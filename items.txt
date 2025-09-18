@@ -1,0 +1,13 @@
+person, man, woman, child, baby, face, portrait
+animal, dog, cat, bird, fish, horse, wildlife
+vehicle, car, truck, bicycle, motorcycle, airplane, boat
+food, fruit, vegetable, meal, dessert, beverage
+indoor, outdoor, landscape, cityscape, seascape, beach, mountain
+forest, desert, sky, sunset, sunrise, night, day
+urban, rural, park, garden, street, building, house
+sports, running, swimming, jumping, dancing, playing, working
+cooking, eating, drinking, reading, writing, talking, sleeping
+traveling, driving, flying, sailing, hiking, climbing
+colorful, black and white, bright, dark, vibrant, muted
+close-up, macro, wide angle, aerial, abstract, textured
+modern, vintage, antique, futuristic, natural, man-made
