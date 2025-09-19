@@ -9,11 +9,16 @@ import os
 import shutil
 from datetime import datetime
 from tqdm import tqdm
+import random
 
 
 def select_10_same_prefix(input_dict):
+    keys = list(input_dict.keys())
+    random.shuffle(keys)
+    shuffled_dict = {key: input_dict[key] for key in keys}
     groups = {}
-    for key, value in input_dict.items():
+
+    for key, value in shuffled_dict.items():
         if len(value) >= 2:
             prefix = tuple(value[:2])
             if prefix not in groups:
@@ -28,9 +33,12 @@ def select_10_same_prefix(input_dict):
 
 
 def select_10_different_prefix(input_dict):
+    keys = list(input_dict.keys())
+    random.shuffle(keys)
+    shuffled_dict = {key: input_dict[key] for key in keys}
     seen_prefixes = set()
     result = {}
-    for key, value in input_dict.items():
+    for key, value in shuffled_dict.items():
         if len(value) >= 2:
             prefix = tuple(value[:2])
             if prefix not in seen_prefixes:
